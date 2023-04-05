@@ -13,7 +13,7 @@ provider "aws" {
         #profile = "default"
 	}
 
-resource "aws_instance" "Karthikinfra" {
+resource "aws_instance" "karthikinfra" {
 	ami = "ami-00c39f71452c08778" 
 	instance_type = "t2.nano"
 }
